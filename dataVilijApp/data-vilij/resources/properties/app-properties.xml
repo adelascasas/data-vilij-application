@@ -7,6 +7,55 @@ functionality within the main workspace. -->
         <!-- RESOURCE FILES AND FOLDERS -->
         <property name="DATA_RESOURCE_PATH" value="data"/>
 
+        <!-- EXTRA ADDITIONS -->
+        <property name="SNAPSHOT_PATH" value="/gui/icons/"/>
+        <property name="CHART_NAME" value="Data Visualization"/>
+        <property name="DISPLAY" value="Display"/>
+        <property name="INVALID_FORMAT" value=" Invalid Format"/>
+        <property name="INVALID_COORDINATE" value=" COORDINATE INPUTS NOT VALID"/>
+        <property name="INVALID_LINE" value=" LINE INPUT NOT SEPARATED BY TAB CORRECTLY"/>
+        <property name="LINE_ERROR" value=" WITH ERROR IN LINE "/>
+        <property name="REPEATED_NAME" value=" REPETITION OF COORDINATE NAME: "/>
+        <property name="READ_ONLY" value="READ ONLY"/>
+        <property name="NUMBER_OF_LINES" value="Loaded data consists of "/>
+        <property name="LINES_SHOWN" value=" lines. Text area will only show the first ten lines."/>
+        <property name="STYLE_SHEET" value="/gui/css/style"/>
+        <property name="AVERAGE_LINE" value="Classification"/>
+        <property name="CHART_SERIES" value=".chart-series-line"/>
+        <property name="CUSTOM_SERIES" value="average-chart-series-line"/>
+        <property name="WARNING"    value="WARNING"/>
+        <property name="DECIMAL"    value="."/>
+        <property name="COMMA"  value=","/>
+        <property name="DISPLAY_SYMBOL" value=": "/>
+        <property name="AT_SYMBOL"  value="@"/>
+        <property name="EMPTY"  value=""/>
+        <property name="AT_ERROR" value=" All data instance names must start with the @ character."/>
+        <property name="INVALID_INPUT" value=" Invalid input: "/>
+        <property name="INVALID_NAME" value=" Invalid name:"/>
+        <property name="DONE"   value="Done"/>
+        <property name="NUMOFLABELS"  value="Number of Clusters: "/>
+        <property name="CONTRUN"    value="Continous Run?"/>
+        <property name="UPINTER"    value="Update Interval:"/>
+        <property name="MAXITER"    value="Max Iterations:"/>
+        <property name="ALGOCONFI"  value="Algorithm Run Configuration"/>
+        <property name="EDIT"   value="Edit"/>
+
+        <!--DATA MESSAGE-->
+        <property name="INSTOF" value=" instances with "/>
+        <property name="DATAFROM" value=" Data loaded from file path:"/>
+        <property name="LABELS" value=" labels."/>
+        <property name="LABELSFROM" value=" The labels are:"/>
+        <property name="DASH"   value="-"/>
+        <property name="NULL"   value="null"/>
+        <property name="RUN_COMPLETE" value="Algorithm Run Complete!"/>
+        <property name = "ALGO_RUNNING" value="Algorithm is Running. Are you sure you want to seize run?"/>
+        <!--ALGORITHM DISPLAY-->
+        <property name="RANDOMCLUST"   value="Random Cluster 1 "/>
+        <property name="CLUST"      value="Clustering"/>
+        <property name="RANDOMCLASS"      value="Random Classification 1"/>
+        <property name="CLASS"  value="Classification"/>
+        <property name="ALGO"   value="Algorithm Type"/>
+
         <!-- USER INTERFACE ICON FILES -->
         <property name="SCREENSHOT_ICON" value="screenshot.png"/>
 
@@ -27,11 +76,32 @@ functionality within the main workspace. -->
         <property name="SAVE_UNSAVED_WORK" value="Would you like to save current work?"/>
 
         <!-- APPLICATION-SPECIFIC PARAMETERS -->
-        <property name="DATA_FILE_EXT" value=".tsd"/>
+        <property name="DATA_FILE_EXT" value="*.tsd"/>
         <property name="DATA_FILE_EXT_DESC" value="Tab-Separated Data File"/>
-        <property name="TEXT_AREA" value="text area"/>
+        <property name="GRAPHICS_FILE_EXT" value="*.png"/>
+        <property name="GRAPHICS_FILE_EXT_DESC" value="portable network graphics file"/>
+        <property name="TEXT_AREA" value="Data File"/>
         <property name="SPECIFIED_FILE" value=" specified file"/>
+        <property name="RESOURCES" value="resources"/>
+        <property name="VILIJ" value="data-vilij"/>
+        <property name="HW" value="hw1"/>
+        <property name="PIC_FORMAT" value="png"/>
+        <property name="ALGORITHM_PATH" value="algorithms."/>
+        <property name="ALGORITHM_FOLDER" value="hw1/data-vilij/src/algorithms"/>
+        <property name="CLUST_CLASS" value="ui.Clusterer"/>
+        <property name="CLASSI_CLASS" value="ui.Classifier"/>
 
+        <!--CSS-APPLICATIONS-->
+        <property name="CONFI"  value="confi"/>
+        <property name="SAMPLE" value="sample"/>
+        <property name="BUTTONMANAGER" value="button-option"/>
+        <property name="DATAMESS" value="datamessage"/>
+        <property name="ALGO_LIST" value="algolist"/>
+        <property name="CONFI_BUTTON" value="configbutton"/>
+        <property name="VBOX"   value="vbox"/>
+        <property name="ALGOTITLES" value="algotitles"/>
+        <property name="PLAYBUTTON" value="playbutton"/>
+        <property name="EXIT_REQUEST" value="exitrequest"/>
     </property_list>
     <property_options_list/>
 </properties>

@@ -36,8 +36,6 @@ public final class DataVisualizer extends ApplicationTemplate {
         setUIComponent(new AppUI(primaryStage, this));
         setActionComponent(new AppActions(this));
         setDataComponent(new AppData(this));
-
         uiComponent.initialize();
     }
-
 }

@@ -1,6 +1,11 @@
-@Instance1	label1	1.5,2.2
-@Instance2	label1	1.8,3
-@Instance3	label1	2.1,2.9
-@Instance4	label2	10,9.4
-@Instance4	label2	10,9.5
-@Instance4	label2	11,9.1
+@Instance1	label1	2,2.2
+@Instance2	label1	3,3
+@Instance3	label1	4,2.9
+@Instance4	label2	5,9.4
+@Instance5	label2	6,9.5
+@Instance6	label2	7,9
+@Instance7	label1	8,3
+@Instance8	label1	9,2.9
+@Instance9	label2	10,9.4
+@Instance10	label2	11,9.5
+@Instance11	label2	12,9.5

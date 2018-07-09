@@ -1,0 +1,124 @@
+.axis-tick-mark {
+    -fx-stroke: #006400;
+    -fx-stroke-width:3;
+}
+
+.chart{
+-fx-min-height: 450px;
+-fx-max-height:450px;
+}
+
+.chart-plot-background {
+    -fx-border-color: black;
+    -fx-border-width: 4px;
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke: transparent;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: transparent;
+}
+
+.chart-horizontal-zero-line  {
+    -fx-stroke: transparent;
+}
+
+.chart-vertical-zero-line  {
+    -fx-stroke: transparent;
+}
+
+#average-chart-series-line{
+-fx-stroke:transparent;
+}
+
+.button-option{
+-fx-pref-width:110px;
+}
+
+.vbox{
+-fx-spacing: 10;
+-fx-padding: 10;
+-fx-alignment: top-center;
+-fx-pref-width:450px;
+-fx-max-width:450px;
+-fx-min-width:450px;
+}
+
+.confi{
+-fx-spacing: 10;
+-fx-padding: 10;
+-fx-alignment: top-center;
+}
+
+.text{
+-fx-font-size: 12px;
+-fx-font-weight: bold;
+-fx-font-smoothing-type: gray;
+-fx-font-family: "Verdana";
+}
+
+#datamessage{
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Verdana";
+    -fx-wrap-text:true;
+}
+
+#algolist{
+    -fx-padding: 0 0 0 70;
+}
+
+#algotitles{
+    -fx-label-padding: 20 0 0 0;
+}
+
+#configbutton{
+-fx-min-height: 20px;
+-fx-min-width: 20px;
+-fx-background-image: url("configuration-symbol.png");
+-fx-background-size: 20px 20px;
+-fx-background-repeat: no-repeat;
+-fx-background-position: center;
+-fx-pref-width : 20px;
+-fx-padding:0 0 0 20;
+}
+
+#playbutton{
+-fx-min-height: 40px;
+-fx-min-width: 40px;
+-fx-background-image: url("glyphicons-221-play-button.png");
+-fx-background-size: 30px 30px;
+-fx-background-repeat: no-repeat;
+-fx-background-position: center;
+-fx-pref-width : 20px;
+}
+
+#sample{
+-fx-pref-width:20px;
+-fx-pref-height:20px;
+}
+
+.separator{
+-fx-background-radius: 2;
+-fx-background-color: #000000;
+-fx-orientation:vertical;
+-fx-halignment:center;
+}
+
+#exitrequest{
+-fx-alignment: top-center;
+-fx-padding: 10;
+-fx-spacing:10;
+}
+
+
+
+
+
+
+
+
+
+
